@@ -1,23 +1,30 @@
+body {
+  margin: 0;
+}
 p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+    text-align: left;
 }
 /*NAVBAR*/
 header {
   width: 100%;
   background-color: whitesmoke;
-  margin-bottom: 3%;
+  text-align: right;
 }
 header ul {
   margin-right: auto;
   display: inline-block;
   list-style-type: none;
+  padding-right: 1.5%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 header li {
   float: left;
-  padding: 15px;
   font-family: monospace;
   font-size: large;
+  padding: 15px;
 }
 header p {
   display: inline-block;
@@ -28,12 +35,14 @@ header p {
 }
 .logo {
   width: 23%;
-  padding: 1%;
-  text-align: center;
+  text-align: left;
+  float: left;
 }
 .logo img {
-  width: 150px;
-  margin-left: auto;
+  width: 120px;
+  margin-left: 0px;
+  margin-top: 8px;
+  padding-left: 14%;
 }
 
 /*HERO*/
@@ -46,8 +55,9 @@ header p {
   margin: 0 auto;
   padding: 50px;
   background-color: #ffffff;
-  text-align: left;
+  text-align: center;
 }
+
 .content img {
   height: 300px;
 }
@@ -67,13 +77,13 @@ footer {
   width: 100%;
   display: inline-block;
   vertical-align: top;
-  margin-top: 3%;
-  border-color: whitesmoke;
 }
 footer ul {
-  margin-right: auto;
+  align-self: auto;
   display: inline-block;
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 footer li {
   float: left;
